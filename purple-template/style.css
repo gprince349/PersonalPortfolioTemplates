@@ -10,7 +10,7 @@ body{
     margin: 0;
     padding: 0;
     font-size: 11px;
-    font-family: "Ubuntu", sans-serif;;
+    font-family: "Montserrat", sans-serif;;
 }
 
 h1,h2,h3{
@@ -45,7 +45,7 @@ header{
 
 .container{
     width: 70%;
-    max-width: 600px;
+    max-width: 700px;
     margin: 3rem auto;
     border-radius: 10px;
 
@@ -94,6 +94,12 @@ header{
     color: white;
     text-align: center;
     border-top-right-radius: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.title-content{
+    margin: 0 auto;
 }
 
 .left-container{
