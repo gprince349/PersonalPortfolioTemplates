@@ -15,9 +15,9 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 45rem;
     width: 100%;
-    background: #f7f8e1;
+    background: #f6f6f1;
     border-radius: px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -72,12 +72,10 @@ body {
 
 .left {
     
-width: 30%;
+width: 35%;
 }
 
-.right {
-    width: 70%;
-}
+
 
 .about {
     margin: 1rem;
@@ -89,7 +87,7 @@ width: 30%;
 
 .expectations {
     padding: 1rem;
-    background-color: rgb(235, 231, 231);
+    background-color: rgb(223, 220, 220);
     padding-bottom: 3rem;
 }
 
