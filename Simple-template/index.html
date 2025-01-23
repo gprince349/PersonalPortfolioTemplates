@@ -1,66 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Profile Card</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
-
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 <body>
   <div class="content">
-  <div class="container">
-   
-    <div class="left">
-        <div>
-            <h1>Sara bellem</h1>
-           
-        </div>
-      
-      <div class="about">
-        <h2>About</h2>
-        <p>Roshan has frequently collaborated with his father, Rakesh Roshan. He made brief appearances as a child actor in several films in the 1980s and later worked as an assistant director on four of his father's films. His first leading role was in the box-office success Kaho Naa... Pyaar Hai (2000), for which he received several awards. Performances in the 2000 terrorism drama Fiza and the 2001 ensemble family drama Kabhi Khushi Kabhie Gham...</p>
-      </div>
-      <div class="details">
-        <p><strong>Date Of Birth:</strong> 25/10/1995</p>
-        <p><strong>Time:</strong> 09:10 PM</p>
-        <p><strong>Age:</strong> 25 Years</p>
-        <p><strong>Weight:</strong> 61 Kg</p>
-        <p><strong>Height:</strong> 5'6"</p>
-        <p><strong>Blood Group:</strong> B</p>
-        <p><strong>Hobbies:</strong> Photography</p>
-        <p><strong>Education:</strong> M.B.A</p>
-        <p><strong>Languages:</strong> English, Hindi</p>
-      </div>
-      <div class="contact">
-        <h2>Contact</h2>
-        <p><strong>Call:</strong> +123 456 789</p>
-        <p><strong>Address:</strong> 445, Mount Eden Road, Anytown, USA</p>
-      </div>
-    </div>
+    <div class="container">
 
-    
-    <div class="right">
-      <div class="image">
-        <img src="hrithik.jpeg" alt="Profile Picture">
+      <div class="left">
+        <div>
+          <h1>Sara bellem</h1>
+
+        </div>
+
+        <div class="about">
+          <h2>About</h2>
+          <p>Roshan has frequently collaborated with his father, Rakesh Roshan. He made brief appearances as a child
+            actor in several films in the 1980s and later worked as an assistant director on four of his father's films.
+            His first leading role was in the box-office success Kaho Naa... Pyaar Hai (2000), for which he received
+            several awards. Performances in the 2000 terrorism drama Fiza and the 2001 ensemble family drama Kabhi
+            Khushi Kabhie Gham...</p>
+        </div>
+
+        <div class="details">
+          <div><span>DOB:</span> 27th Feb 1998</div>
+          <div><span>Time:</span> 07:55 AM</div>
+          <div><span>Age:</span> 26 Years</div>
+          <div><span>Weight:</span> 57 Kg</div>
+          <div><span>Height:</span> 5'6"</div>
+          <div><span>Blood Group:</span> B+</div>
+          <div><span>Education:</span>IIT Bombay</div>
+          <div><span>Hobbies:</span> Reading, Traveling</div>
+          <div><span>Languages:</span> English, Hindi</div>
+        </div>
+        <div class="contact">
+          <h2>Contact</h2>
+          <p><strong>Call:</strong> +123 456 789</p>
+          <p><strong>Address:</strong> 445, Mount Eden Road, Anytown, USA</p>
+        </div>
       </div>
-      <div class="family">
-        <h2>Family</h2>
-        <p>He made brief in several films in the 1980s and later worked as an assistant director on four of his father's films. His first leading role was in the box-office success Kaho Naa... Pyaar Hai (2000), for which he received several awards. Performances in the 2000 terrorism drama Fiza and the 2001 ensemble family</p>
-      </div>
-      <div class="expectations">
-        <h2>Expectations</h2>
-        <p>He made brief in several films in the 1980s and later worked as an assistant director on four of his father's films. His first leading role was in the box-office success Kaho Naa... Pyaar Hai (2000), for which he received several awards. Performances in the 2000 terrorism drama Fiza and the 2001 ensemble family</p>
+
+
+      <div class="right">
+        <div class="image">
+          <img src="hrithik.jpeg" alt="Profile Picture">
+        </div>
+        <div class="family">
+          <h2>Family</h2>
+          <p>He made brief in several films in the 1980s and later worked as an assistant director on four of his
+            father's films. His first leading role was in the box-office success Kaho Naa... Pyaar Hai (2000), for which
+            he received several awards. Performances in the 2000 terrorism drama Fiza and the 2001 ensemble family</p>
+        </div>
+        <div class="expectations">
+          <h2>Expectations</h2>
+          <p>He made brief in several films in the 1980s and later worked as an assistant director on four of his
+            father's films. His first leading role was in the box-office success Kaho Naa... Pyaar Hai (2000), for which
+            he received several awards. Performances in the 2000 terrorism drama Fiza and the 2001 ensemble family</p>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
 
 
 
-<!--   
+  <!--   
   <button id="download-pdf">Download PDF</button>
   <script>
     document.getElementById('download-pdf').addEventListener('click', () => {
@@ -75,7 +88,7 @@
       html2pdf().set(opt).from(element).save();
     });
   </script> -->
-  
-</body>
-</html>
 
+</body>
+
+</html>

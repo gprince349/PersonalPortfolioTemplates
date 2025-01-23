@@ -11,14 +11,12 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding: 20px;
 }
 
 .container {
     max-width: 45rem;
     width: 100%;
     background: #f6f6f1;
-    border-radius: px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
