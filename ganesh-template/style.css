@@ -44,9 +44,8 @@ header{
 }
 
 .container{
-    width: 70%;
-    max-width: 700px;
-    min-height: 990px;
+    width: 750px;
+    min-height: 1057px;
     margin: 3rem auto;
     border-radius: 10px;
     background-image: url("bg-base.jpg");
