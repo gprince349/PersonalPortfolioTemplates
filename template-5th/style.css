@@ -11,14 +11,29 @@ body {
     font-weight: 500;
     font-family: "Montserrat", sans-serif;
 }
+h1,h2,h3{
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 1.8rem;
+}
+
+h2{
+    font-size: 1.3rem;
+}
+
+h3{
+    font-size: 1rem;
+}
 
 .container {
     display: flex;
     flex-direction: column;
-    width: 60%;
-    max-width: 700px;
-    height: 100%;   
-    margin: 1rem auto;
+    max-width: 750px;
+    height: 1057px;   
+    margin: 0 auto;
     border-radius: 10px;
     border: 1.2rem solid #4d0d77;
     overflow: hidden;
@@ -28,13 +43,12 @@ body {
 .sub-header {  
     color: hsl(30, 91%, 75%);
     font-weight: bolder;
+    margin-top: 2rem;
     text-align: center;
-    padding-top: 1rem;
 }
 
 .header {
-    
-    margin: 1rem;
+    margin-top:1.5rem;
     color: hsl(30, 91%, 75%);
     font-weight: bolder;
     text-align: center;
@@ -43,13 +57,13 @@ body {
     display: flex;
     flex-direction: row;
     gap: 0rem;
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
 }
 
 .right {
-    width: 35%;
+    width: 38%;
     margin: 1rem;
-    margin-left: -2rem;
     font-size: 12px;
     background-color: transparent;
 }
@@ -57,47 +71,11 @@ h2{
     margin-bottom: 1rem;
 }
 
-/* h2::after {
-    content: "";
-    display: block;
-    width: 50%;
-    height: 3px;
-    background-color: hsl(30, 91%, 75%);
-    margin-top: .5rem;
-    margin-bottom: 1rem;
-} */
-
-
-
-
 
 .left {
     width: 62%;
     font-size: 12px;
 }
-
-/* .left div {
-    display: contents;
-}
-
-.left span {
-    color: #a58667;
-    font-weight: bold;
-    font-size: .8rem;
-    padding-left: 1rem;
-    text-align: left;
-}
-
-.colon {
-    padding-left: 1rem;
-    text-align: center;
-}
-
-.value {
-    margin-left: 4rem;
-    text-align: left;
-} */
-
 
 .info {
     margin: 1rem;
@@ -106,9 +84,16 @@ h2{
     flex-direction: column;
     
 }
+.contact{
+    margin: 1rem;
+    margin-top: -3rem;
+    color: hsl(30, 91%, 75%);
+    text-align: center;
+}
 
-.expectations, .about, .family,.contact, .lifestyle{
-    margin: 1rem;   
+.expectations, .about, .family,.lifestyle{
+    margin: 1rem; 
+    line-height: 1rem;  
     color: hsl(30, 91%, 75%);
 }
 
