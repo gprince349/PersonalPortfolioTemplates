@@ -1,23 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body { 
-    margin: 0;
-    padding: 0;
-    font-size: 11px;
-    font-weight: 500;
-    font-family: "Montserrat", sans-serif;
-}
 
 .container {
     display: flex;
     flex-direction: column;
-    width: 60%;
-    max-width: 700px;
-    height: 100%;   
+    max-width: 750px;
+    height: 1057px;   
     margin: 1rem auto;
     border-radius: 10px;
     background-image: url("blue-background.jpg");
@@ -31,12 +17,10 @@ body {
     color: hsl(30, 91%, 75%);
     font-weight: bolder;
     text-align: center;
-    padding-top: 1rem;
 }
 
 .header {
-    margin-bottom: 1rem;
-    margin-top:2rem;
+    margin-top:1.5rem;
     color: hsl(30, 91%, 75%);
     font-weight: bolder;
     text-align: center;
@@ -45,13 +29,13 @@ body {
     display: flex;
     flex-direction: row;
     gap: 0rem;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .right {
     width: 30%;
     margin: 1rem;
-    margin-left: -1rem;
     font-size: 12px;
     background-color: transparent;
 }
@@ -60,35 +44,10 @@ h2{
 }
 
 
-
 .left {
     width: 60%;
-    padding-left: 2rem;
     font-size: 12px;
 }
-
-/* .left div {
-    display: contents;
-}
-
-.left span {
-    color: #a58667;
-    font-weight: bold;
-    font-size: .8rem;
-    padding-left: 1rem;
-    text-align: left;
-}
-
-.colon {
-    padding-left: 1rem;
-    text-align: center;
-}
-
-.value {
-    margin-left: 4rem;
-    text-align: left;
-} */
-
 
 .info {
     margin: 1rem;
@@ -97,9 +56,16 @@ h2{
     flex-direction: column;
     
 }
+.contact{
+    margin: 1rem;
+    margin-top: -3rem;
+    color: hsl(30, 91%, 75%);
+    text-align: center;
+}
 
-.expectations, .about, .family,.contact, .lifestyle{
-    margin: 1rem;   
+.expectations, .about, .family,.lifestyle{
+    margin: 1rem; 
+    line-height: 1rem;  
     color: hsl(30, 91%, 75%);
 }
 
